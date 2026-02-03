@@ -11,7 +11,7 @@ int main() {
         scanf("%d", &hour);
         
         if(speed < 0 || hour < 1){
-            printf("Invalid input: Speed must be positive and hour must be greater than 1!\n");
+            printf("Invalid input: Speed must be positive and hour must be greater than 1.\n");
         }
     }while(speed < 0 || hour < 1);
     
